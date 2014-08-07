@@ -21,7 +21,7 @@ span.head
 }
 table
 {
-    width:105%;
+    width:104%;
     height:100%;
     overflow:hidden;
     font-family:'BenchNine';
@@ -122,6 +122,8 @@ td.profile
     vertical-align:top;   
     padding-top: 50px; 
     padding-bottom:75px
+
+    linear-gradient(red, blue);
 }
 li.profile
 {
@@ -157,11 +159,17 @@ img.slider
 {
     width:600px;
     height:400px;
-    margin:auto;
-    display:block;
-    vertical-align:center;
     border:7px;
     border-style:inset;
+	vertical-align:center;
+}
+
+#slideshow
+{
+	width:600px;
+	height:400px;
+	vertical-align:middle;
+	margin: "center";
 }
 
 .slider_frame
@@ -171,7 +179,7 @@ img.slider
     margin:auto;
     display:block;
     vertical-align:center;
-    border:70x;
+    border:70px;
     border-style:inset;
 }
 .slider_frame td div
@@ -211,4 +219,40 @@ img.texas
     margin-right:auto;
     margin-left:auto:
     position:fixed;
+}
+
+p.resume 
+{
+    font-size:15px;
+    font-color:black;
+}
+
+h2.resume
+{
+    font-size:23px;
+    font-color:black;
+
+}
+
+span.resume
+{
+    font-size:20px;
+    color:black;
+}
+
+div.resume 
+{
+    font-size:20px;
+    color:black;
+}
+li.resume 
+{
+    font-size:20px;
+    color:black;
+}
+
+h2.resume
+{
+    font-size:25px;
+    color:black;
 }
